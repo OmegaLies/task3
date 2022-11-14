@@ -1,5 +1,8 @@
 # python-3.7.4
 
+from io import StringIO
+import csv
+
 def task(csvString):
   # Переводим csv в более удобное представление, в моем случае
   # в словарь, где ключ - номер вершины, которая имеет ребра,
